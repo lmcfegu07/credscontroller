@@ -26,7 +26,7 @@ public class VaultDemoApplication {
     
     @PostConstruct
     private void postConstruct() {
-    	log.info("My password is: " + password);
+    	log.info("My initial password is: " + password + "\n");
     }
     
 }
